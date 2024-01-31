@@ -30,6 +30,7 @@ div {
     width: 100%;
     text-align: center;
     font-family: "Montserrat", monospace;
+    word-break: break-word;
 }
 
 #mainText {
