@@ -12,26 +12,33 @@ div {
     z-index: 100;
 }
 
+#backgroundImg {
+    width: 100%;
+}
+
 #bgImg {
     position: fixed;
     height: 100%;
-    transform: translate(-50%, 0%);
+    transform: translate(-35%, 0);
     z-index: 0;
 }
 
 #mainHeader {
     color: white;
     text-shadow: 0 0 10px gray;
-    font-size: 120px;
+    font-size: 10em;
     width: 100%;
     text-align: center;
+    font-family: "Montserrat", monospace;
 }
 
 #mainText {
-    font-size: 200px;
+    width: 90%;
+    font-size: 5em;
     background-color: white;
     box-shadow: 0 0 100px 200px white;
-    margin-bottom: 1000px;
+    margin: 0 5% 100% 5%;
+    font-family: sans-serif;
 }
 
 hr {
@@ -47,5 +54,10 @@ hr {
 #mainElements {
     width: 100%;
     position: absolute;
-    top: 80%;
+    top: 75%;
+}
+
+#challengeText {
+    width: 100%;
+    word-break: break-word;
 }
