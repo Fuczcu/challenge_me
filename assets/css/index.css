@@ -1,3 +1,7 @@
+body {
+    background-color: black;
+}
+
 #container {
     position: absolute;
     left: 0;
@@ -24,6 +28,8 @@ div {
 }
 
 #mainHeader {
+    position: relative;
+    z-index: 100;
     color: white;
     text-shadow: 0 0 10px gray;
     font-size: 2em;
@@ -34,22 +40,15 @@ div {
 }
 
 #mainText {
+    position: relative;
+    z-index: 50;
     width: 90%;
     font-size: 1em;
-    background-color: white;
-    box-shadow: 0 0 100px 200px white;
+    background-color: black;
+    box-shadow: 0 0 100px 200px black;
     margin: 0 5% 100% 5%;
     font-family: sans-serif;
-}
-
-hr {
-    position: relative;
-    z-index: 100;
-    color: black;
-    height: 10px;
-    background-color: black;
-    border: 0;
-    margin-bottom: 100px;
+    text-align: center;
 }
 
 #mainElements {
@@ -61,4 +60,12 @@ hr {
 #challengeText {
     width: 100%;
     word-break: break-word;
+    color: #B60B0B;
+}
+
+#carImg {
+    width: 90%;
+    box-shadow: 0 0 10px 2px #B60B0B;
+    margin-bottom: 2vh;
+    border-radius: 1vw;
 }
